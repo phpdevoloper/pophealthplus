@@ -1,0 +1,158 @@
+.contact .group {
+    width: 616px;
+    height: 635px;
+    /*position: absolute;
+    top: 266px;
+    left: 725px;*/
+}
+.contact .overlap-group {
+    position: relative;
+/*    width: 620px;*/
+/*    height: 639px;*/
+/*    left: -4px;*/
+}
+.contact .element {
+    position: absolute;
+    width: 233px;
+    height: 350px;
+    top: 86px;
+    left: 387px;
+}
+.contact .img {
+    position: absolute;
+    width: 233px;
+    height: 350px;
+    top: 0;
+    left: 108px;
+}
+.contact .element-2 {
+    position: absolute;
+    width: 241px;
+    height: 338px;
+    top: 301px;
+    left: 281px;
+}
+.contact .element-3 {
+    position: absolute;
+    width: 241px;
+    height: 338px;
+    top: 192px;
+    left: 0;
+}
+
+/*infos*/
+
+.infos{
+  justify-content: center;
+  background-image: url(../img/vector-2.png);
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+/*  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;*/
+}
+.info-left,
+.info-right {
+  flex: 1;
+}
+
+.info-right {
+  display: flex;
+  flex-direction: column;
+}
+.contact .get-started-with {
+  font-family: "Kotta One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 86.6px;
+}
+.contact .get-started-with {
+  font-family: "Kotta One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 86.6px;
+}
+
+footer{
+  background-color: #ddb14e;
+  overflow: hidden;
+  padding-top: 50px;
+}
+footer .frame-22 {
+    display: inline-flex;
+    height: 66px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+footer .element-padded {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+footer .text-wrapper-22 {
+    color: #ffffff;
+    position: relative;
+    width: fit-content;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.social{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.social-icon {
+      border: 1px solid #fff;
+    /* padding: 10px; */
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50%;
+}
+.social-icon img{
+  width: 20px;
+  height: 20px;
+}
+.contact .navigation-2 {
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.contact .contact-contact-us-what-w a{
+    opacity: 0.8;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+.contact .element-APCOM-all-ri {
+  padding-top: 30px;
+  border-top: 1px solid #ffffffa8;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 14px;
+    white-space: nowrap;
+}
